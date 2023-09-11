@@ -8,6 +8,9 @@ Data Engineering ETL process to extract data from Amazon SQS queue, transform da
 #### Download the required dependencies
 pip download -r requirements.txt
 
+#### Build and start the docker containers
+docker compose -f compose.yaml up  
+
 #### Run the file 
 python3 fetch_rewards.py
 
