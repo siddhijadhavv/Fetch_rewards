@@ -19,4 +19,4 @@ psql -d postgres -U postgres -p 5432 -h localhost -W
 #### Check if the data is present
 postgres=# select * from user_logins;
 
-# NOTE: Answers for the questions for this assignment have been added to the "answers to questions.txt"
+### NOTE: Answers for the questions for this assignment have been added to the "answers to questions.txt"
