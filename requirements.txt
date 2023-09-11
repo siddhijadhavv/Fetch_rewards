@@ -1,0 +1,4 @@
+boto3==1.26.43
+botocore==1.29.44
+awscli==1.27.44
+awscli-local==0.20
