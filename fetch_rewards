@@ -79,7 +79,7 @@ def main():
     end_url = 'http://localhost:4566/000000000000'
     queue_name = 'login-queue'
     msg_max = 5
-    wait_time = 10
+    wait_time = 2
     fetch_rewards = FetchRewards(end_url, queue_name, msg_max, wait_time)
 
     values = fetch_rewards.get_messages()

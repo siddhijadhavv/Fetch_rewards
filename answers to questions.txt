@@ -1,0 +1,15 @@
+1. How would you deploy this application in production?
+-  We can use IaC tools like terraform to provision resources in a cloud prod environment. Terraform can be used to provision AWS Sqs, postgres and even lamda
+
+2. What other components would you want to add to make this production ready?
+- Deploy the script on AWS lambda
+- Feed the data from the postgresql to Kibana/Tableau dashboard for analytical purpose
+
+3. How can this application scale with a growing dataset.
+- We have the options of vertical and horizontal scaling made available via services like AWS Glue, Function apps to handle large datasets
+
+4. How can PII be recovered later on?
+- Use the base64 decoding library it is possible to decrpt the stored PII data
+
+5. What are the assumptions you made?
+- Assumed the maximum number of messages to retrieve to be 5 and the wait time in seconds to be 2 seconds
